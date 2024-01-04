@@ -1,0 +1,235 @@
+*{
+
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+
+
+
+.hero{
+
+    position: relative;
+    width:100%;
+    height: 100vh;
+    background-color:white;
+}
+
+nav {
+
+    display: flex;
+    width: 84%;
+    margin:auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px;
+}
+
+nav ul li a{
+       
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    
+
+}
+nav ul li a:hover {
+
+    color:red;
+    background:white;
+
+
+}
+
+.details{
+
+    margin-left: 8%;
+    margin-top: 15%;
+
+}
+
+.details h1 {
+
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+
+    color:orange;
+   
+}
+
+.details h3{
+
+    color:#555;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.details a{
+
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color:#fff;
+    display: inline-block;
+    margin:30px 0;
+    border-radius: 5px;
+
+}
+
+.details:hover {
+
+    bottom: 40px;
+}
+
+
+.images{
+
+    width:40%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    background-color: white;
+}
+
+.images img{
+
+    height: 100%;
+    position: absolute;
+    left:50%;
+    bottom:0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    background-color: white;
+}
+
+.images:hover .aman{
+    bottom: 40px;
+
+}
+
+.about {
+
+    padding-top: 300px;
+    padding-bottom: 100px;
+    text-align: center;
+ 
+    background-color:white;
+}
+
+.about h2{
+
+    font-weight: 700;
+
+}
+
+
+.about h3{
+
+    padding-top:40px;
+    color: #555;
+}
+
+.expertice {
+
+ 
+    text-align: center;
+    padding-bottom: 100px;
+   background-color:white;
+}
+
+.expertice h2{
+
+    font-weight: 700;
+
+ 
+    
+
+}
+
+
+.expertice h3{
+
+    padding-top:40px;
+    color: #555;
+}
+
+.skills h2{
+
+    text-align: center;
+}
+
+.skills ol li{
+
+    padding-top:20px;
+    text-align: center; 
+    color: #555;
+    font-weight: bold;
+
+}
+
+.certi h2{
+
+    text-align: center;
+    padding-top: 100px;
+}
+
+.certi ol li{
+
+    padding-top:20px;
+    text-align: center; 
+    color: #555;
+    font-weight: bold;
+
+}
+
+.proj h2{
+
+    text-align: center;
+    padding-top: 100px;
+}
+
+.proj ul  {
+
+    padding-top:20px;
+    text-align: center; 
+    color:#555;
+    font-weight: bold;
+    padding-bottom: 50px;
+
+
+}
+
+
+.lang h2{
+
+    text-align: center;
+    padding-top: 100px;
+}
+
+.lang ol li{
+
+    padding-top:20px;
+    text-align: center; 
+    color: #555;
+    font-weight: bold;
+
+}
+
+
+
+
+
